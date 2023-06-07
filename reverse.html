@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Document</title>
+</head>
+<script>
+const reverse = (num) => {
+let total = '';
+const str = Math.abs(num).toString();
+
+for (let i = str.length - 1; i >= 0; i--) {
+total += str[i];
+}
+
+return total * Math.sign(num);
+};
+</script>
+</body>
+</html>
